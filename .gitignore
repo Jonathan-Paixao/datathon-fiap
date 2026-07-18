@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Model artifacts — add to git if small (<100MB), otherwise use Git LFS
+# model/modelo_risco_defasagem.pkl
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Vercel
+.vercel/
+node_modules/
+bot/.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude
+.claude
+
+# bot workflow (importar manualmente no n8n — não versionar)
+PsicopedaBia.json
+
+# Arquivos de origem dos assets (cópias já em streamlit_app/assets/)
+assets_source/
