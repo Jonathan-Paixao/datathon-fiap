@@ -161,8 +161,6 @@ m4.metric("Defasagem formal",     f"{taxa_def_formal:.1%}",
           help="Alunos cursando fase abaixo da esperada para a idade")
 m5.metric("Pedra mais frequente", str(pedra_mais))
 
-st.markdown("---")
-
 _insight(
     "Atenção! Tenha em mente que para a correta interpretação dos resultados aqui apresentados, "
     "se faz necessária o correto entendimento do significado de cada Indicador. "
@@ -170,6 +168,8 @@ _insight(
     "na seção Início, ou clicando <a href='/' target='_self'>aqui</a>. "
     "Lá você encontrará a definição de cada indicador, bem como a forma de cálculo e interpretação."
 )
+
+st.markdown("---")
 
 # ══════════════════════════════════════════════════════════════════════════════
 # 2. CRESCIMENTO, alunos por ano
